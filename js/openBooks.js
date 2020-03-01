@@ -1,0 +1,3 @@
+function openBooks() {
+	alert("Книги");
+}

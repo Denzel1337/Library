@@ -1,0 +1,3 @@
+function openAuthors() {
+	alert("Авторы");
+}

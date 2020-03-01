@@ -1,0 +1,3 @@
+function openGenres() {
+	alert("Жанры");
+}
