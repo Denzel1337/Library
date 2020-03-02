@@ -21,5 +21,11 @@
   </nav>
  <p class="menu_image"><img src="img/text.png"></p>
  <div class="border_content"></div>
+ <div id="books">
+   <ul>
+      <li class="li"><img src="img/ispoved.jpg"><h2> Исповедь кого то там</h2></li>
+      <li class="li"><img src="img/ispoved.jpg"><h2> Исповедь кого то там</h2></li>
+   </ul>
+ </div>
 </body>
 </html>

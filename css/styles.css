@@ -83,6 +83,22 @@
 	height: 70px;
 }
 
+.li {
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #F2F2F2	;
+}
+#books {
+  visibility: hidden;
+  opacity: 0;
+}
+#books.anim {
+  animation-name: show_books;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
 
 @keyframes border_head_anim {
 	from {
@@ -126,4 +142,15 @@
 	to {
 		transform: rotate(-360deg);
 	}
+}
+@keyframes show_books {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+     opacity: 1;
+  }
+
 }
